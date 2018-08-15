@@ -9,7 +9,7 @@ npm install --global gatsby-cli
 
 and install dependencies inside this folder:
 ```sh
-npm install
+yarn
 ```
 
 And run from your CLI:
@@ -19,5 +19,10 @@ gatsby develop
 
 To build, run:
 ```sh
-npm run build
+yarn build
+```
+
+To deploy, run:
+```
+yarn deploy
 ```
