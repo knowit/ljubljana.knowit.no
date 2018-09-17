@@ -19,7 +19,7 @@ const buttonClasses = new BEMHelper({
 const IndexPage = () => (
   <div>
     <div {...classes('', 'intro')}>
-      <img src='./static/logo_kielferga.png' />
+      <img src='./static/ljubljana_logo.png' />
       <h1>{viewmodel.title}</h1>
       <div>
         <Paragraph cssModfier="white">Tid: {viewmodel.event.date}</Paragraph>
@@ -42,7 +42,7 @@ const IndexPage = () => (
     <div id="info" {...classes('', 'info')}>
       <h2>Informasjon</h2>
       <p>
-        Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Våren 2018 vil den bli avholdt 27. april - 29. april 2018 i Kiel, Tyskland.
+        Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Høsten 2018 vil den bli avholdt 19. oktober - 22. oktober 2018 i Ljubljana, Slovenia.
       </p>
       <p>
         Tidligere har vi besøkt Berlin, Istanbul, Madrid, Dublin, Svalbard, Reykjavik, Palma etc.

@@ -1,13 +1,13 @@
 const viewmodel = {
   title: 'Fagseminar høst 2018',
   event: {
-    date: '27. april - 29. april 2018',
-    longDate: '27. april - 29. april 2018',
-    venue: 'Colorline Oslo-Kiel',
-    city: 'Kiel',
-    country: 'Tyskland',
+    date: '19. oktober - 22. oktober 2018',
+    longDate: '19. oktober - 22. oktober 2018',
+    venue: 'Austria Trend Hotel, Dunajska cesta 154, 1000 Ljubljana',
+    city: 'Ljubljana',
+    country: 'Slovenia',
     gmapsUrl:
-      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2653949.1411731015!2d7.525055213717181!3d57.0627760374479!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b2560d8fee97ad%3A0x4248963c6580320!2sKiel%2C+Tyskland!5e0!3m2!1sno!2sno!4v1519114376274',
+      'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2767.464257241591!2d14.51138181585606!3d46.08172270004596!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476532e8018ac3f7%3A0xfdd77079c72ef36c!2sAustria+Trend+Hotel+Ljubljana!5e0!3m2!1sen!2sno!4v1537198204127',
   },
   schedules: [
     {
@@ -36,11 +36,20 @@ const viewmodel = {
       day: 'Søndag 21. Oktober',
       collections: [
         {
-          time: '09:30-10:00',
+          time: '09:00-09:45',
           title: 'Internmøte',
+          entries: [
+            {
+              room: 'Auditorium 🎥',
+              slots: [
+                'internmeet'
+              ],
+            },
+          ],
+
         },
         {
-          time: '10:00-10:15',
+          time: '10:00-10:20',
           title: 'Pause',
           isBreak: true,
         },
@@ -129,6 +138,22 @@ const viewmodel = {
     },
   ],
   talks: {
+    internmeet: {
+          pending: false,
+          speakers: [
+            {
+              name: 'Jan Henrik Gundelsby',
+              bio:
+                'Jan Henrik er fagsjef i Knowit Objectnet. Jobber for tiden litt hos Oslo kommune med arkitektur og prosess. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Glad i naturen og lidenskapelig opptatt av fag!',
+              email: 'jhg@knowit.no',
+              pic: 'jhg.jpg',
+            },
+          ],
+          title: 'Velkommen og internmøte',
+          type: 'Talk',
+          description:
+            'Beskrivelse kommer',
+        },
   },
 }
 
