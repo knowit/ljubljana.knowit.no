@@ -2,6 +2,12 @@
 
 Created with [Gatsby](https://www.gatsbyjs.org/).
 
+## Before commit
+Run prettier to pretify the code.
+```sh
+yarn prettier
+```
+
 ## Install gatsby
 ```sh
 npm install --global gatsby-cli

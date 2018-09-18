@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { slotClasses } from './'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { slotClasses } from './';
 
 const OtherSlot = ({ collection }) => {
   return (
@@ -10,11 +10,11 @@ const OtherSlot = ({ collection }) => {
         <span>{collection.title}</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
 OtherSlot.propTypes = {
   collection: PropTypes.array,
-}
+};
 
-export default OtherSlot
+export default OtherSlot;

@@ -1,30 +1,36 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { talksClasses } from './'
-import viewmodel from '../../json'
-import TalkDescription from './TalkDescription'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { talksClasses } from './';
+import viewmodel from '../../json';
+import TalkDescription from './TalkDescription';
 import TalkSpeaker from './TalkSpeaker';
 
 class Talk extends React.Component {
   constructor() {
-    super()
-    this.state = { showDescription: false }
-    this.toggleShowDescription = this.toggleShowDescription.bind(this)
+    super();
+    this.state = { showDescription: false };
+    this.toggleShowDescription = this.toggleShowDescription.bind(this);
   }
 
   toggleShowDescription() {
     this.setState(prevState => ({
       showDescription: !prevState.showDescription,
-    }))
+    }));
   }
 
   render() {
-    const { talkId } = this.props
-    const talk = viewmodel.talks[talkId]
+    const { talkId } = this.props;
+    const talk = viewmodel.talks[talkId];
     return (
       <div {...talksClasses('talk')}>
         <div {...talksClasses('talk-speakers')}>
-          {talk.speakers && talk.speakers.length !== 0 ? <TalkSpeaker speaker={talk.speakers[0]} numberOfSpeakers={talk.speakers.length} talkId={talkId}/> : null}
+          {talk.speakers && talk.speakers.length !== 0 ? (
+            <TalkSpeaker
+              speaker={talk.speakers[0]}
+              numberOfSpeakers={talk.speakers.length}
+              talkId={talkId}
+            />
+          ) : null}
         </div>
 
         <div {...talksClasses('talk-info')}>
@@ -36,12 +42,12 @@ class Talk extends React.Component {
           />
         </div>
       </div>
-    )
+    );
   }
 }
 
 Talk.propTypes = {
   talkId: PropTypes.string.isRequired,
-}
+};
 
-export default Talk
+export default Talk;

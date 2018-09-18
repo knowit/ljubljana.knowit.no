@@ -41,12 +41,9 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: [
-                'internmeet'
-              ],
+              slots: ['internmeet'],
             },
           ],
-
         },
         {
           time: '10:00-10:20',
@@ -59,8 +56,7 @@ const viewmodel = {
           entries: [
             {
               room: 'Auditorium 🎥',
-              slots: [
-              ],
+              slots: [],
             },
           ],
         },
@@ -139,22 +135,21 @@ const viewmodel = {
   ],
   talks: {
     internmeet: {
-          pending: false,
-          speakers: [
-            {
-              name: 'Jan Henrik Gundelsby',
-              bio:
-                'Jan Henrik er fagsjef i Knowit Objectnet. Jobber for tiden litt hos Oslo kommune med arkitektur og prosess. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Glad i naturen og lidenskapelig opptatt av fag!',
-              email: 'jhg@knowit.no',
-              pic: 'jhg.jpg',
-            },
-          ],
-          title: 'Velkommen og internmøte',
-          type: 'Talk',
-          description:
-            'Beskrivelse kommer',
+      pending: false,
+      speakers: [
+        {
+          name: 'Jan Henrik Gundelsby',
+          bio:
+            'Jan Henrik er fagsjef i Knowit Objectnet. Jobber for tiden litt hos Oslo kommune med arkitektur og prosess. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Glad i naturen og lidenskapelig opptatt av fag!',
+          email: 'jhg@knowit.no',
+          pic: 'jhg.jpg',
         },
+      ],
+      title: 'Velkommen og internmøte',
+      type: 'Talk',
+      description: 'Beskrivelse kommer',
+    },
   },
-}
+};
 
-export default viewmodel
+export default viewmodel;

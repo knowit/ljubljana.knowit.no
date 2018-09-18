@@ -2,7 +2,11 @@
   "name": "ljubljana.knowit.no",
   "description": "Fagseminar side for Knowit",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Christian Peter <christian.peter@knowit.no>",
+  "devDependencies": {
+    "chalk": "^2.4.1",
+    "prettier": "^1.14.0"
+  },
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
@@ -22,7 +26,10 @@
     "format": "prettier --write 'src/**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public",
+    "prettier": "node prettier.js write",
+    "lint": "yarn run lint-prettier",
+    "lint-prettier": "node prettier.js lint"
   },
   "devDependencies": {
     "prettier": "^1.11.1"

@@ -1,6 +1,6 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import { slotClasses } from './'
+import React from 'react';
+import PropTypes from 'prop-types';
+import { slotClasses } from './';
 
 const BreakSlot = ({ collection }) => {
   return (
@@ -10,11 +10,11 @@ const BreakSlot = ({ collection }) => {
         <span>{collection.title}</span>
       </div>
     </div>
-  )
-}
+  );
+};
 
 BreakSlot.propTypes = {
   collection: PropTypes.array,
-}
+};
 
-export default BreakSlot
+export default BreakSlot;
