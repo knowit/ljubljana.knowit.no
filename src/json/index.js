@@ -14,12 +14,16 @@ const viewmodel = {
       day: 'Fredag 19. Oktober',
       collections: [
         {
-          time: '19:00',
+          time: '18:30',
           title: 'Flyet drar fra Oslo Lufthavn',
         },
         {
-          time: '23:00',
-          title: 'Vi ankommer Ljubljana',
+          time: '20:50',
+          title: 'Lander i Ljubljana',
+        },
+        {
+          time: '21:45',
+          title: 'Vi ankommer hotellet',
         },
       ],
     },
@@ -27,14 +31,26 @@ const viewmodel = {
       day: 'Lørdag 20. Oktober',
       collections: [
         {
+          time: '06:30-09:30',
+          title: 'Frokost',
+        },
+        {
           time: '09:30-18:00',
           title: 'Aktiviteter',
+        },
+        {
+          time: '20:00',
+          title: 'Middag i grupper',
         },
       ],
     },
     {
       day: 'Søndag 21. Oktober',
       collections: [
+        {
+          time: '06:30-09:00',
+          title: 'Frokost',
+        },
         {
           time: '09:00-09:45',
           title: 'Internmøte',
@@ -132,17 +148,25 @@ const viewmodel = {
         },
         {
           time: '19:15',
-          title: 'Felles avgang til restaurant',
+          title: 'Felles avgang til ASperetivo',
         },
         {
           time: '19:30',
-          title: 'Restaurant',
+          title: 'Quiz',
+        }
+        {
+          time: '20:00',
+          title: 'Fellesmiddag på ASperetivo',
         },
       ],
     },
     {
       day: 'Mandag 22. Oktober',
       collections: [
+        {
+          time: '06:30-09:00',
+          title: 'Frokost',
+        },
         {
           time: '09:00-12:00',
           title: 'Workshops & Talks',
@@ -191,12 +215,20 @@ const viewmodel = {
           title: 'Lunsj',
         },
         {
-          time: '13:00-14:30',
+          time: '13:00-15:00',
           title: 'Fritid',
         },
         {
-          time: '14:30',
+          time: '15:00',
           title: 'Buss til flyplassen',
+        },
+        {
+          time: '16:30',
+          title: 'Flyet til Oslo',
+        },
+        {
+          time: '19:15',
+          title: 'Vi ankommer Oslo',
         },
       ],
     },
