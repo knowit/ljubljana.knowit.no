@@ -16,17 +16,17 @@
 
 .c-content--info {
   min-height: 50vh;
+  text-align: center;
+  background-color: white;
 
   & > p {
     max-width: 30%;
     margin: 1rem auto;
-
   }
-  text-align: center;
-  background-color: white;
 }
 
 .c-content--intro {
+  min-height: 50vh;
   justify-content: space-between;
   position: relative;
   background-color: var(--light-blue);
@@ -61,24 +61,49 @@
     margin-right: 1rem;
   }
 }
+.c-content--not-found {
+  text-align: center;
 
+  & svg {
+    width: 100px;
+    height: 100px;
+  }
+}
 .c-content--schedule,
-.c-content--speakers {
+.c-content--speakers,
+.c-content--not-found {
   background-color: var(--gray-2);
 
   & .c-content__container {
-    padding: 0 20%;
+    padding: 0 5%;
   }
 }
 
+@media(--xxlarge-viewport) {
+  .c-content--schedule,
+  .c-content--speakers,
+  .c-content--not-found {
+    background-color: var(--gray-2);
 
+    & .c-content__container {
+      padding: 0 20%;
+    }
+  }
+
+}
 
 @media (--medium-viewport) {
+  .c-content--intro {
+    min-height: 80vh;
+  }
+
   .c-content--info > p {
       max-width: 80%;
   }
+
   .c-content--schedule,
-  .c-content--speakers {
+  .c-content--speakers,
+  .c-content--not-found {
     & .c-content__container {
       padding: 0;
     }
