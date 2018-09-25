@@ -153,7 +153,7 @@ const viewmodel = {
         {
           time: '19:30',
           title: 'Quiz',
-        }
+        },
         {
           time: '20:00',
           title: 'Fellesmiddag på ASperetivo',
