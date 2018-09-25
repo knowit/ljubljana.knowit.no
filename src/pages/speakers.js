@@ -16,9 +16,7 @@ const buttonClasses = new BEMHelper({
 });
 
 const SpeakersPage = props => {
-  console.log(props);
   const hash = props.location.hash;
-  console.log('TALKS', viewmodel.talks);
   return (
     <div {...classes('', 'speakers')}>
       <h1>Talere</h1>

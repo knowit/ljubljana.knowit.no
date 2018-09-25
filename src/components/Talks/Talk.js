@@ -20,7 +20,6 @@ class Talk extends React.Component {
 
   render() {
     const { talkId } = this.props;
-    console.log(talkId);
     if (talkId === 'pause') {
       return (
         <div {...talksClasses('talk-pause')}>
