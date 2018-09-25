@@ -287,7 +287,7 @@ const viewmodel = {
     },
     uland: {
       pending: false,
-      title: 'Fra Lakkegata til Kiber',
+      title: 'Fra Lakkegata til Kibera',
       speakers: [
         {
           name: 'Kenneth Stigen',
