@@ -20,6 +20,14 @@ class Talk extends React.Component {
 
   render() {
     const { talkId } = this.props;
+    console.log(talkId);
+    if (talkId === 'pause') {
+      return (
+        <div {...talksClasses('talk-pause')}>
+          <span>Pause</span>
+        </div>
+      );
+    }
     const talk = viewmodel.talks[talkId];
     return (
       <div {...talksClasses('talk')}>
