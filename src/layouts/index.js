@@ -21,7 +21,7 @@ const TemplateWrapper = ({ children }) => {
           {
             name: 'description',
             content:
-              'Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Våren 2018 vil den bli avholdt 19. oktober - 22. oktober 2018 i Ljubljana, Slovenia.',
+              'Knowit Objectnet arrangerer to fagseminarer årlig. Det er de ansatte selv som lager programmet. Høsten 2018 vil den bli avholdt 19. oktober - 22. oktober 2018 i Ljubljana, Slovenia.',
           },
           { name: 'keywords', content: 'Fagseminar, Ljubljana, Fag' },
         ]}>
