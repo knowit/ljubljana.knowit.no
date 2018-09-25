@@ -42,12 +42,13 @@
     }
   }
   &__talk-pause {
-    padding: 1rem 0rem;
+    padding: 1rem 1rem;
     text-align: center;
     font-weight: bold;
     width: 100%;
     background-color: var(--gray-1);
     margin: 1rem -1rem;
+
   }
   &__talk-speakers {
     display: inline-block;
