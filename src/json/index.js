@@ -287,7 +287,7 @@ const viewmodel = {
     },
     uland: {
       pending: false,
-      title: 'En programmerer gjør brukertesting i u-land',
+      title: 'Fra Lakkegata til Kiber',
       speakers: [
         {
           name: 'Kenneth Stigen',
