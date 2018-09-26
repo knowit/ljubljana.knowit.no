@@ -46,16 +46,26 @@
   outline: none;
 }
 
-@media (--medium-viewport) {
-  .c-button-group--schedule-days > .c-button {
-    padding: 1rem 1rem;
-    font-size: 0.8rem;
-  }
+.c-button-group--schedule-days {
+  display: flex;
+}
 
+@media (--medium-viewport) {
+  .c-button-group--schedule-days {
+    display: flex;
+    flex-wrap: wrap;
+  }
   .c-button-group {
     & > .c-button {
       margin: 0 2px;
     }
+  }
+  .c-button-group--schedule-days > .c-button {
+    padding: 1rem 1rem;
+    font-size: 0.8rem;
+    min-width: 50%;
+    margin: 0;
+    margin-top: 0.5rem;
   }
 }
 

@@ -40,7 +40,7 @@ svg {
 
 .google-maps-content {
   width: 350px;
-  height: 136px;
+  height: 180px;
   padding: 20px;
   top: 0.5rem;
   left: 0.5rem;
@@ -101,7 +101,7 @@ svg {
 
     &:hover,
     &:focus {
-      border-color: var(--purple-1); 
+      border-color: var(--purple-1);
     }
   }
 }
