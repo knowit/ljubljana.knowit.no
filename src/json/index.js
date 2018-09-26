@@ -460,7 +460,7 @@ const viewmodel = {
         {
           name: 'Thomas Tøkje',
           bio:
-            'Thomas har en mastergrad i Kybernetikk ved NTNU fra våren 2012, med spesialisering i tilpassede datasystemer. Gjennom sin utdanning og karriere har han lært seg å beherske et bredt spenn av forskjellige fagfelt, deriblant elektronikk, programmering og serverdrift. I jobbsammenheng har han opparbeidet seg god erfaring med dialekter av C (C, C++ og C#). Thomas behersker både imperative og funksjonelle programmeringsparadigmer, men har en forkjærlighet for funksjonelle språk som Haskell og Clojure.',
+            'Thomas har en mastergrad i Kybernetikk ved NTNU fra våren 2012, med spesialisering i tilpassede datasystemer. Gjennom sin utdanning og karriere har han lært seg å beherske et bredt spenn av forskjellige fagfelt, deriblant elektronikk, programmering og serverdrift. I jobbsammenheng har han opparbeidet seg god erfaring med Java, Scala og Kotlin, samt dialekter av C (C, C++ og C#).',
           pic: 'tøkje.jpg',
         },
       ],
