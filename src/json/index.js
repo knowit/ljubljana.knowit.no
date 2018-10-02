@@ -588,6 +588,12 @@ const viewmodel = {
             'Håkon har en mastergrad fra NTNU med en spesialisering innen kunstig intelligens med dype nevrale nettverk. Han ser på seg selv som en fullstack-utvikler med prosjekterfaring både front- og back-end. Til nå har han jobbet med teknologier som Angular og React front-end, og .NET og Java back-end. I tillegg til dette har han også bred erfaring innen native Android utvikling. For tiden jobber han for Knowit på Vegloggen prosjektet med Scala og Java.',
           pic: 'haakon.gimse.jpg',
         },
+        {
+          name: 'Christian Linchausen',
+          bio:
+            'Christian er en webutvikler med erfaring fra EdTech bransjen som brenner for å lage brukervennlige løsninger. Christian har erfaring med blant annet Backbone.js, ASP.NET, samt HTML5, CSS3 og Javascript.',
+          pic: 'christian.linchausen.jpg',
+        },
       ],
       title:
         'Voice User Interface med Dialogflow og Google Actions for Google Assistant',
