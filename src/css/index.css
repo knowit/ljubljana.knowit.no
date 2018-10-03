@@ -101,7 +101,7 @@ svg {
 
     &:hover,
     &:focus {
-      border-color: var(--purple-1);
+      border-color: var(--main-color);
     }
   }
 }

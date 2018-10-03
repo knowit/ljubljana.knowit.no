@@ -30,8 +30,10 @@
   &__talk-title {
     text-align: center;
   }
-}
 
-.c-speakers + .c-speakers {
-  border-top: 1px dotted var(--knowit-green);
+  &__divider {
+    width: 40%;
+    border-bottom: 5px solid var(--main-color);
+    margin: 4rem auto;
+  }
 }

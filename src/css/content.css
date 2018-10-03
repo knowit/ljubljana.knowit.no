@@ -18,6 +18,7 @@
   min-height: 50vh;
   text-align: center;
   background-color: white;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 
   & > p {
     max-width: 30%;
@@ -29,7 +30,7 @@
   min-height: 50vh;
   justify-content: space-between;
   position: relative;
-  background-color: var(--light-blue);
+  background-color: var(--main-color);
   z-index: 33;
 
   &:first-child {
@@ -59,6 +60,11 @@
     margin-top: 2rem;
     display: inline-block;
     margin-right: 1rem;
+
+    &:hover,
+    &:focus {
+      border-color: white;
+    }
   }
 }
 .c-content--not-found {

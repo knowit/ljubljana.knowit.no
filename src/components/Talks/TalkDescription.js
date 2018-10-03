@@ -8,7 +8,7 @@ const DESCRIPTION_LENGTH = 100;
 
 const shortDescription = description => {
   if (description.length > DESCRIPTION_LENGTH) {
-    return `${description.substring(0, 100)}...`;
+    return `${description.substring(0, 100)}... Les mer`;
   }
   return description;
 };

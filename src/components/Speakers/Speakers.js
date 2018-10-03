@@ -31,6 +31,7 @@ Speaker.propTypes = {
 const Speakers = ({ talk: { speakers, title }, talkKey }) => {
   return (
     <div id={talkKey} {...speakersClass()}>
+      <div {...speakersClass('divider')} />
       <h2 {...speakersClass('talk-title')}>{title}</h2>
       <div {...speakersClass('container')}>
         {speakers.map(speaker => (
