@@ -20,7 +20,7 @@ yarn
 
 And run from your CLI:
 ```sh
-gatsby develop
+yarn start
 ```
 
 To build, run:
