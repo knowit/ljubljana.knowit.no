@@ -215,11 +215,11 @@ const viewmodel = {
           title: 'Lunsj',
         },
         {
-          time: '13:00-15:00',
+          time: '13:00-14:30',
           title: 'Fritid',
         },
         {
-          time: '15:00',
+          time: '14:30',
           title: 'Buss til flyplassen',
         },
         {
@@ -528,7 +528,7 @@ const viewmodel = {
       speakers: [
         {
           name: 'Jonas Natten',
-          bio: 'Kommer',
+          bio: 'Jonas startet som konsulent i knowit høsten 2017. Han liker seg best på backend, og har siden han startet tilegnet seg erfaringer med funksjonell programmering, mikrotjenester, og infrastruktur i skyen.',
           pic: 'jnatten.png',
         },
         {
