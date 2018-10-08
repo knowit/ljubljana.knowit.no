@@ -42,6 +42,16 @@ const viewmodel = {
           time: '20:00',
           title: 'Middag i grupper',
         },
+        {
+          time: '22:00-',
+          title: 'Brettspill',
+          entries: [
+            {
+              room: 'Ubiquitus',
+              slots: ['boardgames'],
+            },
+          ],
+        },
       ],
     },
     {
@@ -121,23 +131,27 @@ const viewmodel = {
           title: 'Workshops',
           entries: [
             {
-              room: 'Rom 1',
-              slots: ['real_life_data_science'],
+              room: 'Horus',
+              slots: ['kubernetes101'],
             },
             {
-              room: 'Rom 2',
+              room: 'Kronos',
+              slots: ['synthrust'],
+            },
+            {
+              room: 'Janus',
               slots: ['ljubljana_streamin'],
             },
             {
-              room: 'Rom 3',
+              room: 'Orion',
               slots: ['uxunicorn'],
             },
             {
-              room: 'Rom 4',
+              room: 'Centaurus',
               slots: ['cryptografi'],
             },
             {
-              room: 'Rom 5',
+              room: 'Cassiopea',
               slots: ['iothouse'],
             },
           ],
@@ -172,31 +186,27 @@ const viewmodel = {
           title: 'Workshops & Talks',
           entries: [
             {
-              room: 'Rom 1',
-              slots: ['real_life_data_science'],
-            },
-            {
-              room: 'Rom 2',
+              room: 'Janus',
               slots: ['ljubljana_streamin'],
             },
             {
-              room: 'Rom 3',
+              room: 'Orion',
               slots: ['uxunicorn'],
             },
             {
-              room: 'Rom 4',
+              room: 'Centaurus',
               slots: ['cryptografi'],
             },
             {
-              room: 'Rom 5',
+              room: 'Cassiopea',
               slots: ['iothouse'],
             },
             {
-              room: 'Rom 6',
+              room: 'Kronos',
               slots: ['voiceuserinterface'],
             },
             {
-              room: 'Rom 7',
+              room: 'Horus',
               slots: [
                 'reason',
                 'object_keys',
@@ -528,7 +538,8 @@ const viewmodel = {
       speakers: [
         {
           name: 'Jonas Natten',
-          bio: 'Jonas startet som konsulent i knowit høsten 2017. Han liker seg best på backend, og har siden han startet tilegnet seg erfaringer med funksjonell programmering, mikrotjenester, og infrastruktur i skyen.',
+          bio:
+            'Jonas startet som konsulent i knowit høsten 2017. Han liker seg best på backend, og har siden han startet tilegnet seg erfaringer med funksjonell programmering, mikrotjenester, og infrastruktur i skyen.',
           pic: 'jnatten.png',
         },
         {
@@ -616,6 +627,20 @@ const viewmodel = {
       type: 'Talk',
       description:
         'Hvorfor liker ikke alle brukerne at legacysystemer blir til freshe webapps med en moderne teknisk stack? I denne lyntalen får du tips til hvordan unngå Stockholmsyndrom for datasystemer.',
+    },
+    boardgames: {
+      pending: false,
+      speakers: [
+        {
+          name: 'Jan Henrik Gundelsby',
+          bio: 'Jan Henrik er glad i brettspill!',
+          email: 'jhg@knowit.no',
+          pic: 'jhg.jpg',
+        },
+      ],
+      title: 'Brettspill 🎲',
+      type: 'Fun',
+      description: 'Beskrivelse kommer',
     },
   },
 };
