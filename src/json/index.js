@@ -63,7 +63,7 @@ const viewmodel = {
         },
         {
           time: '09:00-09:45',
-          title: 'Internmøte',
+          title: 'Knowit Objectnet fremover',
           entries: [
             {
               room: 'Ubiquitus',
@@ -255,9 +255,10 @@ const viewmodel = {
           pic: 'jhg.jpg',
         },
       ],
-      title: 'Velkommen og internmøte',
+      title: 'Knowit Objectnet fremover',
       type: 'Talk',
-      description: 'Beskrivelse kommer',
+      description:
+        'Knowit Objecnet må hele tiden tilpasse seg markedet. Vi går fra å være teknologileverandør til partner med kundene våre. Hvordan skal vi få til dette?',
     },
     digital_identity: {
       pending: false,
@@ -640,7 +641,8 @@ const viewmodel = {
       ],
       title: 'Brettspill 🎲',
       type: 'Fun',
-      description: 'Beskrivelse kommer',
+      description:
+        '"Vi prøver oss på en spillkveld som alternativ til fest på byen. Vi stiller med noen spill som T. I. M. E stories, Pandemic og Arkham Horror Card Game". Møt opp etter middag (ta en taxi tilbake til hotellet), for avslappet stemning med snacks og drikke og litt brettspill.',
     },
   },
 };
