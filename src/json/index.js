@@ -273,7 +273,7 @@ const viewmodel = {
         },
       ],
       type: 'Talk',
-      description: 'Beskrivelse kommer',
+      description: 'Anders våknet en dag opp og delte navn med Norges verste massemorder. I tillegg til navnet viste det seg at de tilsynelatende delte en rekke egenskaper og interesser. Dette var starten på en absurd tid, og underveis gikk det opp noen lys for Anders om digital identitet og kontekst, store datamengder, forskjellen på korrelasjon og kausalitet, samt menneskets trang til å skape orden i kaos.',
     },
     debt: {
       pending: false,
