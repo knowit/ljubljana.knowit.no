@@ -51,7 +51,6 @@ const IndexPage = () => (
         Tidligere har vi besøkt Berlin, Istanbul, Madrid, Dublin, Svalbard,
         Reykjavik, Palma etc.
       </p>
-      <p>Alle rom markert med 🎥 vil bli filmet.</p>
     </div>
     <CodeOfConduct />
   </div>
