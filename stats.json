@@ -1,24 +1,24 @@
 {
   "assetsByChunkName": {
     "component---src-pages-speakers-js": [
-      "component---src-pages-speakers-js-883888652a7d0de87a53.js",
-      "component---src-pages-speakers-js-883888652a7d0de87a53.js.map"
+      "component---src-pages-speakers-js-0517da4fd898c22f0c85.js",
+      "component---src-pages-speakers-js-0517da4fd898c22f0c85.js.map"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-7384544ab52943991c12.js",
-      "component---src-pages-index-js-7384544ab52943991c12.js.map"
+      "component---src-pages-index-js-f138b0eed81daeec592e.js",
+      "component---src-pages-index-js-f138b0eed81daeec592e.js.map"
     ],
     "component---src-pages-schedule-js": [
-      "component---src-pages-schedule-js-dc9c25974a62621233bd.js",
-      "component---src-pages-schedule-js-dc9c25974a62621233bd.js.map"
+      "component---src-pages-schedule-js-325a5a0635c39c39b059.js",
+      "component---src-pages-schedule-js-325a5a0635c39c39b059.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-c2b6f379b2f18dee08f4.js",
-      "component---src-layouts-index-js-c2b6f379b2f18dee08f4.js.map"
+      "component---src-layouts-index-js-dfa827464e956d5414f4.js",
+      "component---src-layouts-index-js-dfa827464e956d5414f4.js.map"
     ],
     "path---index": [
       "path---index-a0e39f21c11f6a62c5ab.js",
@@ -29,8 +29,8 @@
       "component---src-pages-404-js-e3aa14d06df2346e80e6.js.map"
     ],
     "commons": [
-      "commons-0715db58e0ff93ec7b1f.js",
-      "commons-0715db58e0ff93ec7b1f.js.map"
+      "commons-b71e7233220735cda602.js",
+      "commons-b71e7233220735cda602.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
@@ -41,9 +41,9 @@
       "path---speakers-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-e171d3be9a6e32aadc6e.js",
+      "app-f20f39e52d13a18a8d8e.js",
       "build-js-styles.css",
-      "app-e171d3be9a6e32aadc6e.js.map",
+      "app-f20f39e52d13a18a8d8e.js.map",
       "build-js-styles.css.map"
     ],
     "path---schedule": [
