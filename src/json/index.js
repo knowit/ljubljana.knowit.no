@@ -51,7 +51,7 @@ const viewmodel = {
           title: 'Brettspill',
           entries: [
             {
-              room: 'Ubiquitus',
+              room: 'Cassiopeia',
               slots: ['boardgames'],
             },
           ],
