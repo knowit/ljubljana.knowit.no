@@ -14,8 +14,12 @@ const viewmodel = {
       day: 'Fredag 19. Oktober',
       collections: [
         {
+          time: '16:00',
+          title: 'Oppmøte senest på flyplassen',
+        },
+        {
           time: '18:20',
-          title: 'Flyet drar fra Oslo Lufthavn',
+          title: 'Flyet drar fra Oslo Lufthavn (QS4466)',
         },
         {
           time: '20:40',
@@ -225,19 +229,19 @@ const viewmodel = {
           title: 'Lunsj',
         },
         {
-          time: '13:00-14:30',
+          time: '13:00-14:00',
           title: 'Fritid',
         },
         {
-          time: '14:30',
+          time: '14:00',
           title: 'Buss til flyplassen',
         },
         {
-          time: '16:30',
-          title: 'Flyet til Oslo',
+          time: '16:00',
+          title: 'Flyet til Oslo (QS4467)',
         },
         {
-          time: '19:15',
+          time: '18:45',
           title: 'Vi ankommer Oslo',
         },
       ],
