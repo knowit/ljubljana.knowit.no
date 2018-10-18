@@ -248,17 +248,17 @@ const viewmodel = {
       pending: false,
       speakers: [
         {
-          name: 'Jan Henrik Gundelsby',
+          name: 'Christer Kjellesvig',
           bio:
-            'Jan Henrik er fagsjef i Knowit Objectnet. Jobber for tiden litt hos Oslo kommune med arkitektur og prosess. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Glad i naturen og lidenskapelig opptatt av fag!',
-          email: 'jhg@knowit.no',
-          pic: 'jhg.jpg',
+            '',
+          email: 'ckj@knowit.no',
+          pic: 'ckj.jpg',
         },
       ],
-      title: 'Knowit Objectnet fremover',
+      title: "What's Next?",
       type: 'Talk',
       description:
-        'Knowit Objectnet må hele tiden tilpasse seg markedet. Vi går fra å være teknologileverandør til partner med kundene våre. Hvordan skal vi få til dette?',
+        'Knowit Objectnet må hele tiden tilpasse seg markedet. Vi går fra å være teknologileverandør til partner med kundene våre. Hvilke nye ting driver vi med?',
     },
     digital_identity: {
       pending: false,

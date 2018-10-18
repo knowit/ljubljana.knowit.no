@@ -4,17 +4,18 @@
   "version": "1.0.0",
   "author": "Christian Peter <christian.peter@knowit.no>",
   "devDependencies": {
-    "chalk": "^2.4.1",
-    "prettier": "^1.14.0"
+    "prettier": "^1.11.1"
   },
   "dependencies": {
     "gatsby": "^1.9.241",
     "gatsby-link": "^1.6.39",
     "gatsby-plugin-react-helmet": "^2.0.8",
     "gh-pages": "^1.1.0",
+    "npm": "^6.4.1",
     "react-bem-helper": "^1.4.1",
     "react-helmet": "^5.2.0",
-    "react-spring": "^3.1.0"
+    "react-spring": "^3.1.0",
+    "yarn": "^1.10.1"
   },
   "keywords": [
     "gatsby"
@@ -31,8 +32,5 @@
     "prettier": "node prettier.js write",
     "lint": "yarn run lint-prettier",
     "lint-prettier": "node prettier.js lint"
-  },
-  "devDependencies": {
-    "prettier": "^1.11.1"
   }
 }
