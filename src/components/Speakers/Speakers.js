@@ -35,7 +35,7 @@ const Speakers = ({ talk: { speakers, title }, talkKey }) => {
       <h2 {...speakersClass('talk-title')}>{title}</h2>
       <div {...speakersClass('container')}>
         {speakers.map(speaker => (
-          <Speaker speaker={speaker} />
+          <Speaker key={speaker.name} speaker={speaker} />
         ))}
       </div>
     </div>

@@ -52,6 +52,7 @@ class SchedulePage extends React.Component {
         <ButtonGroup cssModfier="schedule-days">
           {viewmodel.schedules.map((day, index) => (
             <button
+              key={day.day}
               onClick={evt => this.onDayClick(evt, index)}
               {...buttonClasses(
                 '',
@@ -63,7 +64,10 @@ class SchedulePage extends React.Component {
         </ButtonGroup>
         <div {...classes('container')}>
           {activeDay.collections.map((collection, index) => (
-            <Slot collection={collection} />
+            <Slot
+              key={`${collection.title}_${index}`}
+              collection={collection}
+            />
           ))}
         </div>
       </div>

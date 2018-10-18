@@ -14,7 +14,7 @@ const BreakSlot = ({ collection }) => {
 };
 
 BreakSlot.propTypes = {
-  collection: PropTypes.array,
+  collection: PropTypes.object,
 };
 
 export default BreakSlot;

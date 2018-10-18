@@ -161,8 +161,13 @@ const viewmodel = {
           ],
         },
         {
-          time: '16:30-17:30',
+          time: '16:30-17:15',
           title: 'Open Space',
+        },
+        {
+          time: '17:15',
+          title: 'Slovensk fingermat',
+          isBreak: true,
         },
         {
           time: '19:15',
@@ -211,6 +216,7 @@ const viewmodel = {
             },
             {
               room: 'Horus',
+              columnSize: 2,
               slots: [
                 'reason',
                 'object_keys',
@@ -237,7 +243,7 @@ const viewmodel = {
           title: 'Buss til flyplassen',
         },
         {
-          time: '16:00',
+          time: '16:30',
           title: 'Flyet til Oslo (QS4467)',
         },
         {
@@ -253,8 +259,7 @@ const viewmodel = {
       speakers: [
         {
           name: 'Christer Kjellesvig',
-          bio:
-            '',
+          bio: '',
           email: 'ckj@knowit.no',
           pic: 'ckj.jpg',
         },
@@ -277,7 +282,8 @@ const viewmodel = {
         },
       ],
       type: 'Talk',
-      description: 'Anders våknet en dag opp og delte navn med Norges verste massemorder. I tillegg til navnet viste det seg at de tilsynelatende delte en rekke egenskaper og interesser. Dette var starten på en absurd tid, og underveis gikk det opp noen lys for Anders om digital identitet og kontekst, store datamengder, forskjellen på korrelasjon og kausalitet, samt menneskets trang til å skape orden i kaos.',
+      description:
+        'Anders våknet en dag opp og delte navn med Norges verste massemorder. I tillegg til navnet viste det seg at de tilsynelatende delte en rekke egenskaper og interesser. Dette var starten på en absurd tid, og underveis gikk det opp noen lys for Anders om digital identitet og kontekst, store datamengder, forskjellen på korrelasjon og kausalitet, samt menneskets trang til å skape orden i kaos.',
     },
     debt: {
       pending: false,

@@ -88,6 +88,10 @@
   padding: 1rem;
   background-color: white;
   border: 1px solid var(--gray-1);
+
+  &--double {
+    flex: 1 50%;
+  }
 }
 
 @media (--medium-viewport) {

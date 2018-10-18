@@ -14,7 +14,7 @@ const OtherSlot = ({ collection }) => {
 };
 
 OtherSlot.propTypes = {
-  collection: PropTypes.array,
+  collection: PropTypes.object,
 };
 
 export default OtherSlot;

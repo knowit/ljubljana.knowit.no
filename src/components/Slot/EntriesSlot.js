@@ -4,12 +4,17 @@ import { slotClasses } from './';
 import Talks, { talksClasses } from '../Talks';
 
 const EntriesSlot = ({ collection }) => {
+  console.log(collection);
   return (
     <div {...slotClasses('entries')}>
       <span {...slotClasses('time')}>{collection.time}</span>
       <div {...talksClasses()}>
-        {collection.entries.map(entry => (
-          <Talks entry={entry} collectionTitle={collection.title} />
+        {collection.entries.map((entry, index) => (
+          <Talks
+            key={entry.room}
+            entry={entry}
+            collectionTitle={collection.title}
+          />
         ))}
       </div>
     </div>
@@ -17,7 +22,7 @@ const EntriesSlot = ({ collection }) => {
 };
 
 EntriesSlot.propTypes = {
-  collection: PropTypes.array,
+  collection: PropTypes.object,
 };
 
 export default EntriesSlot;

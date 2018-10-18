@@ -109,6 +109,7 @@ svg {
 @media (--medium-viewport) {
   .google-maps-content {
     width: 60%;
+    height: 240px;
   }
 
   .c-code-of-conduct {

@@ -35,14 +35,24 @@ const TemplateWrapper = ({ children }) => {
         <div className="google-maps-blocker" />
         <div className="google-maps-content">
           <h1>Lokasjon</h1>
-          <h3>Austria Trend Hotel</h3>
-          <h3>Dunajska cesta 154, 1000</h3>
+          <a
+            href="https://goo.gl/maps/hSfJEMs8Kz22"
+            target="_blank"
+            rel="noopener noreferrer">
+            <h3>Austria Trend Hotel </h3>
+          </a>
+          <a
+            href="https://goo.gl/maps/hSfJEMs8Kz22"
+            target="_blank"
+            rel="noopener noreferrer">
+            <h3>Dunajska cesta 154, 1000</h3>
+          </a>
           <h3>Ljubljana</h3>
         </div>
         <iframe
           className="google-maps"
           src={viewmodel.event.gmapsUrl}
-          frameborder="0"
+          frameBorder="0"
         />
       </div>
     </div>
