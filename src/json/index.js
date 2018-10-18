@@ -237,11 +237,11 @@ const viewmodel = {
           title: 'Buss til flyplassen',
         },
         {
-          time: '16:00',
+          time: '16:30',
           title: 'Flyet til Oslo (QS4467)',
         },
         {
-          time: '18:45',
+          time: '19:15',
           title: 'Vi ankommer Oslo',
         },
       ],
