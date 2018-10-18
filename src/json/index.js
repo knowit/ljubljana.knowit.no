@@ -247,7 +247,7 @@ const viewmodel = {
           title: 'Flyet til Oslo (QS4467)',
         },
         {
-          time: '18:45',
+          time: '19:15',
           title: 'Vi ankommer Oslo',
         },
       ],
