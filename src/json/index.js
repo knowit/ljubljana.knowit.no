@@ -163,6 +163,12 @@ const viewmodel = {
         {
           time: '16:30-17:15',
           title: 'Open Space',
+          entries: [
+            {
+              room: 'Diverse',
+              slots: ['openspace'],
+            },
+          ],
         },
         {
           time: '17:15',
@@ -410,6 +416,21 @@ const viewmodel = {
       type: 'Talk',
       description:
         'I denne lyntalen tar jeg kjapt for meg hva som faktisk kan være et property name i javascript og hvorfor det kanskje ikke er så rett frem som man skulle tro... Demonstrert gjennom et case fra det virkelig liv som skapte meg en god dose hodebry.',
+    },
+    openspace: {
+      pending: false,
+      speakers: [
+        {
+          name: 'Jan Henrik Gundelsby',
+          bio: 'Jan Henrik er fagsjef i Knowit Objectnet. Jobber for tiden litt hos Oslo kommune med arkitektur og prosess. Driver også med salg, marked og hvordan vi skal få de rette nye prosjektene. Glad i naturen og lidenskapelig opptatt av fag!',
+          email: 'jhg@knowit.no',
+          pic: 'jhg.jpg',
+        },
+      ],
+      title: "Open Space",
+      type: 'Talk',
+      description:
+        'En selvorganiserende konferanseform. Vi lager agenda sammen. Detaljer, les <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">beskrivelse her</a>. For en oversikt over innkommende forslag se: <a href="https://docs.google.com/spreadsheets/d/1v9z8N9i-e7XLvOXXC73gavMLfFlgoAZBsUJwl9-STjs/edit#gid=0">her</a>',
     },
     remote_work: {
       pending: false,
