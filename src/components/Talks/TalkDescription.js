@@ -24,7 +24,7 @@ const TalkDescription = ({
   if (showDescription) {
     return (
       <span {...talksClasses('talk-description')}>
-        {description}
+        <div dangerouslySetInnerHTML={{ __html: description }} />
         <button className="un-button" onClick={toggleShowDescription}>
           <Cross />
         </button>
@@ -34,7 +34,9 @@ const TalkDescription = ({
 
   return (
     <span {...talksClasses('talk-description')} onClick={toggleShowDescription}>
-      {shortDescription(description)}
+      <div
+        dangerouslySetInnerHTML={{ __html: shortDescription(description) }}
+      />
     </span>
   );
 };
