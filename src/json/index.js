@@ -165,7 +165,7 @@ const viewmodel = {
           title: 'Open Space',
           entries: [
             {
-              room: 'Diverse',
+              room: 'Janus',
               slots: ['openspace'],
             },
           ],
