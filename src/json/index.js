@@ -161,7 +161,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '16:30-17:15',
+          time: '16:30-18:00',
           title: 'Open Space',
           entries: [
             {
@@ -169,11 +169,6 @@ const viewmodel = {
               slots: ['openspace'],
             },
           ],
-        },
-        {
-          time: '17:15',
-          title: 'Slovensk fingermat',
-          isBreak: true,
         },
         {
           time: '19:15',
@@ -430,7 +425,7 @@ const viewmodel = {
       title: "Open Space",
       type: 'Talk',
       description:
-        'En selvorganiserende konferanseform. Vi lager agenda sammen. Detaljer, les <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">beskrivelse her</a>. For en oversikt over innkommende forslag se: <a href="https://docs.google.com/spreadsheets/d/1v9z8N9i-e7XLvOXXC73gavMLfFlgoAZBsUJwl9-STjs/edit#gid=0">her</a>',
+        'En selvorganiserende konferanseform. Vi lager agenda sammen. Detaljer, les <a href="https://en.wikipedia.org/wiki/Open_Space_Technology">beskrivelse her</a>. For en oversikt over innkommende forslag se: <a href="https://docs.google.com/spreadsheets/d/1v9z8N9i-e7XLvOXXC73gavMLfFlgoAZBsUJwl9-STjs/edit#gid=0">her</a>. Vi får servert Slovensk fingermat underveis.',
     },
     remote_work: {
       pending: false,
