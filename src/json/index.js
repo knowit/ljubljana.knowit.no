@@ -161,7 +161,7 @@ const viewmodel = {
           ],
         },
         {
-          time: '16:30-18:00',
+          time: '16:30-17:30',
           title: 'Open Space',
           entries: [
             {
